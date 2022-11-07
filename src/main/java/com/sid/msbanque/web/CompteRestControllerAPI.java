@@ -10,7 +10,7 @@ import javax.ws.rs.*;
 
 import java.util.List;
 //Dispatcher Servlet
-//@RestController
+@RestController
 @RequestMapping("/banque")
 public class CompteRestControllerAPI {
     @Autowired
